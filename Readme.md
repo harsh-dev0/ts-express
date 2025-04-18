@@ -1,97 +1,41 @@
 # TypeScript Node.js Backend Template
 
-A clean, production-ready TypeScript backend template for Node.js applications with modern best practices.
+A clean TypeScript backend template for Node.js with Express.
 
-## Features
-
-- ✅ TypeScript configuration optimized for backend development
-- ✅ Express.js web server
-- ✅ Environment variable management with dotenv
-- ✅ Development mode with hot reloading
-- ✅ Proper project structure for scalability
-- ✅ Error handling middleware
-- ✅ NPM scripts for development and production
-
-## Getting Started
+## Quick Start
 
 ### Prerequisites
 
-- Node.js 18.x or higher
-- npm or yarn
+- Node.js 18.x+
+- npm/yarn
 
 ### Installation
-
-1. Clone this repository:
 
 ```bash
 git clone https://github.com/harsh-dev0/ts-express.git
 cd ts-express
-```
-
-2. Install dependencies:
-
-```bash
 npm install
 ```
 
-3. Create a `.env` file in the root directory:
+### Environment Setup
+
+Create `.env` file:
 
 ```
 PORT=3000
 ```
 
-### Development
+## Key Scripts
 
-Start the development server with hot reloading:
-
-```bash
-npm run dev
-```
-
-For watching file changes:
-
-```bash
-npm run dev:watch
-```
-
-### Production
-
-Build the project:
-
-```bash
-npm run build
-```
-
-Start the production server:
-
-```bash
-npm start
-```
-
-## Project Structure
-
-```
-ts-express/
-├── src/                  # Source code
-│   ├── index.ts          # Application entry point
-│   ├── routes/           # API routes
-│   ├── controllers/      # Route controllers
-│   ├── models/           # Data models
-│   ├── middleware/       # Express middleware
-│   └── config/           # Configuration files
-├── dist/                 # Compiled output (generated)
-├── tsconfig.json         # TypeScript configuration
-├── package.json          # Project dependencies
-└── .env                  # Environment variables
-```
-
-## Scripts
-
-- `npm run build` - Compiles TypeScript to JavaScript
-- `npm start` - Starts the production server
-- `npm run dev` - Starts the development server
-- `npm run dev:watch` - Starts the development server with file watching
+- `npm run dev` - Start dev server
+- `npm run dev:watch` - Dev server with file watching
+- `npm run build` - Compile TypeScript
+- `npm start` - Start production server
 
 ## License
 
 MIT
+
+```
+
+```

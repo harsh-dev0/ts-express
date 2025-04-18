@@ -8,6 +8,12 @@
     "dev": "nodemon --exec ts-node src/index.ts",
     "dev:watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
   },
+  "files": [
+    "src",
+    "tsconfig.json",
+    "README.md",
+    ".eslintrc.js"
+  ],
   "keywords": [],
   "author": "Harsh Pal",
   "license": "MIT",
