@@ -25,7 +25,7 @@ A clean, production-ready TypeScript backend template for Node.js applications w
 
 ```bash
 git clone https://github.com/harsh-dev0/ts-express.git
-cd ts-backend-template
+cd ts-express
 ```
 
 2. Install dependencies:
@@ -38,7 +38,6 @@ npm install
 
 ```
 PORT=3000
-NODE_ENV=development
 ```
 
 ### Development
@@ -72,7 +71,7 @@ npm start
 ## Project Structure
 
 ```
-ts-backend/
+ts-express/
 ├── src/                  # Source code
 │   ├── index.ts          # Application entry point
 │   ├── routes/           # API routes
@@ -96,7 +95,3 @@ ts-backend/
 ## License
 
 MIT
-
-## Author
-
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
