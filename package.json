@@ -1,41 +1,28 @@
 {
   "name": "create-ts-express-app",
-  "version": "1.3.0",
-  "main": "index.js",
+  "version": "1.3.6",
   "bin": {
     "create-ts-express-app": "bin/cli.js"
   },
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --exec ts-node src/index.ts",
-    "dev:watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
-  },
-  "keywords": ["typescript", "express", "template", "starter"],
+  "description": "Instant backend starter template with TypeScript & Express.js",
+  "keywords": [
+    "typescript",
+    "express",
+    "create-app",
+    "starter",
+    "scaffold",
+    "npx",
+    "cli",
+    "backend",
+    "boilerplate"
+  ],
   "author": "Harsh Pal",
   "license": "MIT",
-  "description": "A simple backend starter for ts",
-  "devDependencies": {
-    "@types/node": "^22.14.1",
-    "@typescript-eslint/eslint-plugin": "^8.30.1",
-    "@typescript-eslint/parser": "^8.30.1",
-    "eslint": "^9.24.0",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
-    "nodemon": "^3.1.9",
-    "prettier": "^3.5.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
   "dependencies": {
-    "@types/express": "^5.0.1",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "fs": "^0.0.1-security",
-    "ncp": "^2.0.0",
-    "path": "^0.12.7",
     "chalk": "^4.1.2",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "ncp": "^2.0.0",
+    "prompts": "^2.4.2"
   },
   "repository": {
     "type": "git",
